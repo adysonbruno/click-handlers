@@ -2,7 +2,7 @@
 
 Para esta atividade, você criará uma página interativa que será atualizada ou modificada quando diversos botões forem clicados.
 
-Comece fazendo um **fork** [deste repositório](https://gitlab.com/kenzie-academy/se/fe/getting-started-with-javascript/s_click-handlers). Na raiz deste projeto, você encontrará o `index.html`.
+Comece fazendo um **fork** [deste repositório](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_click-handlers). Na raiz deste projeto, você encontrará o `index.html`.
 
 Se abrir o arquivo em seu navegador, você verá três seções numeradas.
 
