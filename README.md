@@ -43,6 +43,6 @@ Certifique-se de entender a diferença entre os operadores JavaScript de atribui
 
 ### Finalização ###
 
-Depois de completar as três tarefas, seu arquivo index.html deve mostrar cinco botões, e um clique em qualquer um desses botões deve produzir o comportamento desejado. Faça o push do código para seu repositório no GitLab e use a função do GitLab Pages que permite que o site seja visualizado diretamente. Por favor, envie a url do seu gitlab pages publicado, ou seja, https://nomedeusuário.gitlab.io/click-handlers
+Depois de completar as três tarefas, seu arquivo index.html deve mostrar cinco botões, e um clique em qualquer um desses botões deve produzir o comportamento desejado. Faça o push do código para seu repositório no GitLab e use a função do GitLab Pages que permite que o site seja visualizado diretamente. Por favor, envie a url do seu gitlab pages publicado, ou seja, https://nomedeusuario.gitlab.io/s_click-handlers
 
-Além disso, certifique-se de adicionar o grupo `ka-br-correcoes` como reporter do seu projeto para que os outros alunos possam ver seu envio.
+Além disso, certifique-se de adicionar o grupo `ka-br-<sua-turma>-correcoes` como reporter do seu projeto para que os outros alunos possam ver seu envio.
