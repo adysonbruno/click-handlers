@@ -1,4 +1,4 @@
-# Entrega: Handlers de Clique #
+# Extra: Handlers de Clique #
 
 Para esta atividade, você criará uma página interativa que será atualizada ou modificada quando diversos botões forem clicados.
 
