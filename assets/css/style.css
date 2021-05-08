@@ -1,0 +1,67 @@
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 30px;
+  margin: 10px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-variant-caps: small-caps;
+  font-family: monospace;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+div.todo1 {
+  display: flex;
+}
+
+div.buttons-colors {
+  display: flex;
+  flex-direction: column;
+}
+
+#gray_button {
+  background-color: gray;
+}
+
+#blue_button {
+  background-color: blue;
+}
+
+#pink_button {
+  background-color: pink;
+}
+
+#color_box {
+  width: 200px;
+  height: 200px;
+  margin: 0 100px;
+}
+
+.gray {
+  background: gray;
+}
+
+.blue {
+  background: rgb(67, 111, 255);
+}
+
+.pink {
+  background: pink;
+}
+
+#counter_button {
+  background-color: slateblue;
+}
+
+#even_or_odd_button {
+  background-color: red;
+}

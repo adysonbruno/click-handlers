@@ -3,75 +3,7 @@
 
 <head>
     <title>An interactive web page</title>
-    <style>
-        body {
-            background-color: burlywood;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        button {
-            padding: 10px 30px;
-            margin: 10px;
-            font-size: 30px;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            font-variant-caps: small-caps;
-            font-family: monospace;
-            font-weight: 900;
-        }
-
-        div.todo1 {
-            display: flex;
-        }
-
-        div.buttons-colors {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        #gray_button {
-            background-color: gray;
-        }
-
-        #blue_button {
-            background-color: blue;
-        }
-
-        #pink_button {
-            background-color: pink;
-        }
-
-        #color_box {
-            width: 200px;
-            height: 200px;
-            margin: 0 100px;
-        }
-
-        .gray {
-            background: gray;
-        }
-
-        .blue {
-            background: rgb(67, 111, 255);
-        }
-
-        .pink {
-            background: pink;
-        }
-
-        #counter_button {
-            background-color: slateblue;
-        }
-
-        #even_or_odd_button {
-            background-color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -87,74 +19,18 @@
         <div id="color_box" class="gray"></div>
     </div>
 
-    <script>
-        const color_box = document.getElementById("color_box");
-
-        const gray_button = document.getElementById("gray_button");
-        gray_button.onclick = function () {
-            color_box.className = "gray";
-        };
-
-        const blue_button = document.getElementById("blue_button");
-        blue_button.onclick = function () {
-            color_box.className = "blue";
-        };
-
-        /* TODO 1
-         *
-         *  Adicionar um botão e um event handler 
-         *  e o botão torna o quadrado rosa.
-         */
-        const pink_button = document.getElementById("pink_button");
-        pink_button.onclick = function () {
-            color_box.className = "pink";
-        };
-
-    </script>
-
     <hr>
 
     <h2>2. Counter</h2>
     <button id="counter_button">This fabulous button</button>
     has been clicked <span id="countspan">0</span> times.
-    <script>
-        let count = 0;
-        const countspan = document.getElementById("countspan");
-
-        const counter_button = document.getElementById("counter_button");
-        counter_button.onclick = function () {
-            count += 1;
-            countspan.innerText = count;
-            /* TODO 2
-             *
-             *  A função incrementa 1 em um contador "count", 
-             *  atualiza o conteúdo de texto do "countspan" 
-             *  e mostra o valor atual de "count".
-             */
-        }
-
-
-    </script>
 
     <hr>
 
     <h2>3. Even or Odd?</h2>
     <button id="even_or_odd_button">Is the count even or odd?</button>
-    <script>
-        const even_or_odd_button = document.getElementById("even_or_odd_button");
-        even_or_odd_button.onclick = function () {
-            if (count % 2 === 0) {
-                alert('Par');
-            } else {
-                alert('Impar')
-            }
-            /* TODO 3
-             *
-             * A função mostra um "alert dialog" mostrando se o contador 
-             * (da segunda tarefa (TODO 2)) é par ou impar.
-             */
-        }
-    </script>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
