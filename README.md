@@ -2,8 +2,8 @@
 
 ## Descrição do Projeto
 
-<p align="center">
-Este projeto foi uma atividade realizada no curso da Kenzie Academy, na qual iniciamos o contato com o DOM, e deveríamos adicionar eventos de click aos botões.
+<p>
+Este projeto foi uma atividade realizada no curso da <a href="https://kenzie.com.br/">Kenzie Academy</a>, na qual iniciamos o contato com o DOM, e deveríamos adicionar eventos de click aos botões.
 </p>
 
 <a href="https://click-handlers.netlify.app/">Link da aplicação</a>
